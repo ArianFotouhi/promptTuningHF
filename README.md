@@ -1,6 +1,21 @@
-# **Prompt Tuning Application**
+# **Why Prompt Tuning**
 
-This application demonstrates how prompt tuning can modify the behavior of a language model to generate more contextually appropriate and targeted responses to specific prompts.
+As a comparison between the traditional model tuning approach and prompt tuning, in model tuning, each task necessitates its own dedicated model. Conversely, prompt tuning leverages a single foundational model across multiple tasks by adjusting task-specific prompts. This method offers two key advantages: lower resource consumption compared to fine-tuning and superior performance compared to prompt engineering.
+
+Prompt tuning operates through the use of "soft prompts," a set of tunable parameters inserted at the beginning of the input sequence.
+
+Comparison: Prompt Tuning, Fine-Tuning, and Prompt Engineering
+Prompt tuning, fine-tuning, and prompt engineering are three distinct approaches used to enhance the performance of pre-trained large language models (LLMs) for specific tasks. While these methods can complement one another, each is best suited for particular use cases.
+
+## Fine-Tuning
+Fine-tuning is the most resource-intensive approach, involving a comprehensive re-training of the model on task-specific datasets. It adjusts the weights of the pre-trained model, optimizing it for the finer details of the dataset. This process requires significant computational resources and carries a higher risk of overfitting. Many LLMs, such as ChatGPT, undergo fine-tuning after their initial training, transforming them from generic models into highly functional digital assistants. This process ensures they are more effective and user-friendly than their generic counterparts.
+
+## Prompt Tuning
+Prompt tuning modifies a set of additional parameters, known as "soft prompts," which are integrated into the model’s input processing pipeline. Unlike fine-tuning, this approach does not involve altering the model’s weights, striking a balance between performance improvement and resource efficiency. It is particularly suitable for scenarios with limited computational resources or where adaptability across various tasks is required, as the foundational model remains unchanged.
+
+## Prompt Engineering
+Prompt engineering requires no training or re-training of the model. Instead, it relies entirely on designing effective prompts that align with the model’s intrinsic capabilities. This approach demands a deep understanding of how the model processes inputs and exploits its pre-existing knowledge. Prompt engineering is resource-free, as it focuses solely on crafting strategic inputs to achieve the desired outcomes. For a more in-depth exploration of this technique, check out DataCamp's course on prompt engineering for developers.
+
 
 ---
 
