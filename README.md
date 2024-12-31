@@ -4,7 +4,7 @@ As a comparison between the traditional model tuning approach and prompt tuning,
 
 Prompt tuning operates through the use of "soft prompts," a set of tunable parameters inserted at the beginning of the input sequence.
 
-Comparison: Prompt Tuning, Fine-Tuning, and Prompt Engineering
+## Comparison: Prompt Tuning, Fine-Tuning, and Prompt Engineering
 Prompt tuning, fine-tuning, and prompt engineering are three distinct approaches used to enhance the performance of pre-trained large language models (LLMs) for specific tasks. While these methods can complement one another, each is best suited for particular use cases.
 
 ## Fine-Tuning
