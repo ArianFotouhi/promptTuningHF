@@ -14,7 +14,7 @@ Fine-tuning is the most resource-intensive approach, involving a comprehensive r
 Prompt tuning modifies a set of additional parameters, known as "soft prompts," which are integrated into the model’s input processing pipeline. Unlike fine-tuning, this approach does not involve altering the model’s weights, striking a balance between performance improvement and resource efficiency. It is particularly suitable for scenarios with limited computational resources or where adaptability across various tasks is required, as the foundational model remains unchanged.
 
 ## Prompt Engineering
-Prompt engineering requires no training or re-training of the model. Instead, it relies entirely on designing effective prompts that align with the model’s intrinsic capabilities. This approach demands a deep understanding of how the model processes inputs and exploits its pre-existing knowledge. Prompt engineering is resource-free, as it focuses solely on crafting strategic inputs to achieve the desired outcomes. For a more in-depth exploration of this technique, check out DataCamp's course on prompt engineering for developers.
+Prompt engineering requires no training or re-training of the model. Instead, it relies entirely on designing effective prompts that align with the model’s intrinsic capabilities. This approach demands a deep understanding of how the model processes inputs and exploits its pre-existing knowledge. Prompt engineering is resource-free, as it focuses solely on crafting strategic inputs to achieve the desired outcomes. 
 
 
 ---
